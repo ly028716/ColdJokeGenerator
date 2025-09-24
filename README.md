@@ -293,5 +293,6 @@ pm2 start "uvicorn app.main:app --host 0.0.0.0 --port 8000" --name cold-joke-api
 
 ---
 
-⭐ 如果这个项目对你有帮助，请给它一个星标！#   C o l d J o k e G e n e r a t o r  
+⭐ 如果这个项目对你有帮助，请给它一个星标！#   C o l d J o k e G e n e r a t o r 
+ 
  
