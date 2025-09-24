@@ -80,49 +80,49 @@
 ### 后端部署
 
 1. **克隆项目**
-```bash
-git clone <your-repo-url>
-cd 8_ColdJokeGenerator/backend
-```
+   ```bash
+   git clone <your-repo-url>
+   cd 8_ColdJokeGenerator/backend
+   ```
 
 2. **创建虚拟环境**
-```bash
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Linux/Mac
-source .venv/bin/activate
-```
+   ```bash
+   python -m venv .venv
+   # Windows
+   .venv\Scripts\activate
+   # Linux/Mac
+   source .venv/bin/activate
+   ```
 
 3. **安装依赖**
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **配置环境变量**
-```bash
-# 复制环境变量模板
-cp .env.example .env
-
-# 编辑 .env 文件，配置以下变量：
-# QWEN_API_KEY=your_qwen_api_key_here
-# DATABASE_URL=sqlite:///./test.db
-# REDIS_URL=redis://localhost:6379/0  # 可选
-```
+   ```bash
+   # 复制环境变量模板
+   cp .env.example .env
+   
+   # 编辑 .env 文件，配置以下变量：
+   # QWEN_API_KEY=your_qwen_api_key_here
+   # DATABASE_URL=sqlite:///./test.db
+   # REDIS_URL=redis://localhost:6379/0  # 可选
+   ```
 
 5. **初始化数据库**
-```bash
-python init_db.py
-```
+   ```bash
+   python init_db.py
+   ```
 
 6. **启动服务**
-```bash
-# 开发环境
-python simple_start.py
-
-# 或使用uvicorn
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
-```
+   ```bash
+   # 开发环境
+   python simple_start.py
+   
+   # 或使用uvicorn
+   uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+   ```
 
 ### 前端部署
 
@@ -239,33 +239,33 @@ curl -X POST http://localhost:8000/api/v1/jokes/generate \
 ### 生产环境部署
 
 1. **使用Docker**
-```dockerfile
-# 参考 backend/Dockerfile
-FROM python:3.9-slim
-COPY . /app
-WORKDIR /app
-RUN pip install -r requirements.txt
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
+   ```dockerfile
+   # 参考 backend/Dockerfile
+   FROM python:3.9-slim
+   COPY . /app
+   WORKDIR /app
+   RUN pip install -r requirements.txt
+   CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+   ```
 
 2. **使用Nginx反向代理**
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-    
-    location /api/ {
-        proxy_pass http://localhost:8000;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-    }
-}
-```
+   ```nginx
+   server {
+       listen 80;
+       server_name your-domain.com;
+       
+       location /api/ {
+           proxy_pass http://localhost:8000;
+           proxy_set_header Host $host;
+           proxy_set_header X-Real-IP $remote_addr;
+       }
+   }
+   ```
 
 3. **使用PM2管理进程**
-```bash
-pm2 start "uvicorn app.main:app --host 0.0.0.0 --port 8000" --name cold-joke-api
-```
+   ```bash
+   pm2 start "uvicorn app.main:app --host 0.0.0.0 --port 8000" --name cold-joke-api
+   ```
 
 ## 🤝 贡献指南
 
@@ -293,6 +293,4 @@ pm2 start "uvicorn app.main:app --host 0.0.0.0 --port 8000" --name cold-joke-api
 
 ---
 
-⭐ 如果这个项目对你有帮助，请给它一个星标！#   C o l d J o k e G e n e r a t o r 
- 
- 
+⭐ 如果这个项目对你有帮助，请给它一个星标！
