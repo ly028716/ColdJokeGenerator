@@ -1,0 +1,119 @@
+<view class="container">
+  <!-- 头部区域 -->
+  <view class="header">
+    <view class="header-content">
+      <view class="title-section">
+        <text class="main-title">AI冷笑话生成器</text>
+        <text class="subtitle">让生活更有趣 😄</text>
+      </view>
+      <view class="stats-section">
+        <view class="stat-item">
+          <text class="stat-number">{{todayCount}}</text>
+          <text class="stat-label">今日</text>
+        </view>
+        <view class="stat-divider"></view>
+        <view class="stat-item">
+          <text class="stat-number">{{totalCount}}</text>
+          <text class="stat-label">总计</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 主要内容区域 -->
+  <scroll-view class="main-content" scroll-y="{{true}}" enable-back-to-top="{{true}}">
+    
+    <!-- 笑话内容显示区 -->
+    <view class="joke-display-section">
+      <view class="section-header">
+        <text class="section-title">{{currentJoke ? '今日笑话' : '开始生成你的第一个笑话吧！'}}</text>
+      </view>
+      
+      <!-- 笑话卡片 -->
+      <view class="joke-card" wx:if="{{currentJoke}}" animation="{{jokeAnimation}}">
+        <text class="joke-content">{{currentJoke.content}}</text>
+        <view class="joke-tags" wx:if="{{currentJoke.tags}}">
+          <view class="joke-tag" wx:for="{{currentJoke.tags}}" wx:key="*this">
+            <text class="tag-text">{{item}}</text>
+          </view>
+        </view>
+      </view>
+      
+      <!-- 空状态 -->
+      <view class="empty-state" wx:else>
+        <text class="empty-icon">🎭</text>
+        <text class="empty-text">点击下方按钮开始生成笑话</text>
+      </view>
+    </view>
+
+    <!-- 参数设置区域 -->
+    <view class="settings-section">
+      <view class="section-header">
+        <text class="section-title">生成设置</text>
+      </view>
+      
+      <!-- 长度设置 -->
+      <view class="setting-item">
+        <text class="setting-label">笑话长度</text>
+        <view class="slider-container">
+          <slider 
+            min="0" 
+            max="2" 
+            step="1" 
+            value="{{lengthValue}}"
+            bindchange="onLengthChange"
+            activeColor="#FF6B6B"
+            backgroundColor="#E9ECEF"
+            block-color="#FF6B6B"
+            block-size="16">
+          </slider>
+          <text class="slider-label">{{lengthLabels[lengthValue]}}</text>
+        </view>
+      </view>
+      
+      <!-- 类型设置 -->
+      <view class="setting-item">
+        <text class="setting-label">笑话类型</text>
+        <picker 
+          mode="selector" 
+          range="{{categoryOptions}}" 
+          range-key="name"
+          value="{{selectedCategoryIndex}}"
+          bindchange="onCategoryChange">
+          <view class="picker-display">
+            <text class="picker-text">{{categoryOptions[selectedCategoryIndex].name}}</text>
+            <text class="picker-arrow">▼</text>
+          </view>
+        </picker>
+      </view>
+    </view>
+
+    <!-- 操作按钮组 -->
+    <view class="action-buttons">
+      <view class="generate-btn {{isLoading ? 'loading' : ''}}" bindtap="generateJoke">
+        <text class="btn-icon">🎲</text>
+        <text class="btn-text">生成</text>
+      </view>
+      <view class="favorite-btn" bindtap="onJokeFavorite" wx:if="{{currentJoke}}">
+        <text class="btn-icon">❤️</text>
+        <text class="btn-text">收藏</text>
+      </view>
+      <view class="share-btn" bindtap="onJokeShare" wx:if="{{currentJoke}}">
+        <text class="btn-icon">📤</text>
+        <text class="btn-text">分享</text>
+      </view>
+    </view>
+
+    <!-- 统计信息 -->
+    <view class="stats-section">
+      <view class="section-header">
+        <text class="section-title">今日统计</text>
+      </view>
+      <view class="stats-content">
+        <text class="stats-text">已生成 {{todayCount}} 个笑话 | 收藏 {{favoriteCount}} 个 | 分享 {{shareCount}} 次</text>
+      </view>
+    </view>
+
+  </scroll-view>
+
+</view>

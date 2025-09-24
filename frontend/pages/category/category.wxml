@@ -1,0 +1,59 @@
+<view class="container">
+  <!-- 顶部标题栏 -->
+  <view class="header">
+    <text class="header-title">笑话分类</text>
+  </view>
+
+  <!-- 搜索框 -->
+  <view class="search-section">
+    <view class="search-bar">
+      <text class="search-icon">🔍</text>
+      <input 
+        class="search-input" 
+        placeholder="搜索笑话分类..." 
+        value="{{searchKeyword}}"
+        bindinput="onSearchInput" />
+    </view>
+  </view>
+
+  <!-- 分类网格 -->
+  <view class="categories-section">
+    <view class="categories-grid">
+      <view 
+        class="category-item"
+        wx:for="{{categories}}" 
+        wx:key="id"
+        data-id="{{item.id}}"
+        bindtap="onCategoryTap">
+        <text class="category-icon">{{item.icon}}</text>
+        <text class="category-name">{{item.name}}</text>
+        <text class="category-count">{{item.count}}个</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 热门推荐区域 -->
+  <view class="recommend-section">
+    <view class="section-header">
+      <text class="section-title">🔥 热门推荐</text>
+    </view>
+    
+    <view class="recommend-list">
+      <view 
+        class="recommend-item"
+        wx:for="{{recommendJokes}}" 
+        wx:key="id"
+        data-joke="{{item}}"
+        bindtap="onRecommendJokeTap">
+        <text class="recommend-content">{{item.content}}</text>
+        <text class="recommend-desc">{{item.description}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 统计信息 -->
+  <view class="stats-section">
+    <text class="stats-text">共 {{categories.length}} 个分类 | 总计 {{totalJokeCount}} 个笑话</text>
+  </view>
+
+</view>

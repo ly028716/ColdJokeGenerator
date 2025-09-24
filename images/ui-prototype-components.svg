@@ -1,0 +1,112 @@
+<svg width="375" height="800" viewBox="0 0 375 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="375" height="800" fill="#F8F9FA"/>
+  
+  <!-- 标题 -->
+  <text x="187.5" y="30" text-anchor="middle" fill="#2C3E50" font-size="20" font-weight="bold">组件库设计</text>
+  
+  <!-- 按钮组件 -->
+  <text x="20" y="60" fill="#2C3E50" font-size="16" font-weight="bold">按钮组件</text>
+  
+  <!-- 主要按钮 -->
+  <rect x="20" y="75" width="100" height="40" rx="20" fill="#FF6B6B"/>
+  <text x="70" y="98" text-anchor="middle" fill="white" font-size="14" font-weight="bold">主要按钮</text>
+  
+  <!-- 次要按钮 -->
+  <rect x="130" y="75" width="100" height="40" rx="20" fill="white" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="180" y="98" text-anchor="middle" fill="#FF6B6B" font-size="14">次要按钮</text>
+  
+  <!-- 成功按钮 -->
+  <rect x="240" y="75" width="100" height="40" rx="20" fill="#4ECDC4"/>
+  <text x="290" y="98" text-anchor="middle" fill="white" font-size="14">成功按钮</text>
+  
+  <!-- 警告按钮 -->
+  <rect x="20" y="125" width="100" height="40" rx="20" fill="#FFE66D"/>
+  <text x="70" y="148" text-anchor="middle" fill="#2C3E50" font-size="14">警告按钮</text>
+  
+  <!-- 禁用按钮 -->
+  <rect x="130" y="125" width="100" height="40" rx="20" fill="#E9ECEF"/>
+  <text x="180" y="148" text-anchor="middle" fill="#6C757D" font-size="14">禁用按钮</text>
+  
+  <!-- 卡片组件 -->
+  <text x="20" y="200" fill="#2C3E50" font-size="16" font-weight="bold">卡片组件</text>
+  
+  <!-- 基础卡片 -->
+  <rect x="20" y="215" width="335" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="240" fill="#2C3E50" font-size="14" font-weight="bold">基础卡片标题</text>
+  <text x="40" y="260" fill="#495057" font-size="12">这是卡片的内容描述，可以包含多行文字信息。</text>
+  <text x="40" y="280" fill="#6C757D" font-size="10">2024-09-23 | 标签1 标签2</text>
+  
+  <!-- 笑话卡片 -->
+  <rect x="20" y="305" width="335" height="100" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="330" fill="#2C3E50" font-size="14" font-weight="bold">笑话卡片</text>
+  <text x="40" y="350" fill="#495057" font-size="12">为什么程序员喜欢用Mac？</text>
+  <text x="40" y="365" fill="#495057" font-size="12">因为PC不能让他们装逼... 😄</text>
+  <rect x="40" y="375" width="40" height="20" rx="10" fill="#4ECDC4"/>
+  <text x="60" y="388" text-anchor="middle" fill="white" font-size="10">科技</text>
+  <text x="315" y="330" fill="#FF6B6B" font-size="16">❤️</text>
+  <text x="315" y="350" fill="#4ECDC4" font-size="16">📤</text>
+  
+  <!-- 表单组件 -->
+  <text x="20" y="440" fill="#2C3E50" font-size="16" font-weight="bold">表单组件</text>
+  
+  <!-- 输入框 -->
+  <rect x="20" y="455" width="335" height="40" rx="8" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="478" fill="#6C757D" font-size="14">请输入内容...</text>
+  
+  <!-- 选择器 -->
+  <rect x="20" y="505" width="160" height="40" rx="8" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="528" fill="#2C3E50" font-size="14">选择器</text>
+  <text x="140" y="528" fill="#6C757D" font-size="14">▼</text>
+  
+  <!-- 滑块 -->
+  <rect x="195" y="515" width="160" height="4" rx="2" fill="#E9ECEF"/>
+  <rect x="195" y="515" width="80" height="4" rx="2" fill="#FF6B6B"/>
+  <circle cx="275" cy="517" r="8" fill="#FF6B6B"/>
+  <text x="195" y="535" fill="#6C757D" font-size="12">滑块组件</text>
+  
+  <!-- 开关组件 -->
+  <rect x="20" y="565" width="50" height="25" rx="12.5" fill="#4ECDC4"/>
+  <circle cx="37.5" cy="577.5" r="10" fill="white"/>
+  <text x="80" y="580" fill="#2C3E50" font-size="14">开关组件</text>
+  
+  <rect x="200" y="565" width="50" height="25" rx="12.5" fill="#E9ECEF"/>
+  <circle cx="212.5" cy="577.5" r="10" fill="white"/>
+  <text x="260" y="580" fill="#6C757D" font-size="14">关闭状态</text>
+  
+  <!-- 导航组件 -->
+  <text x="20" y="620" fill="#2C3E50" font-size="16" font-weight="bold">导航组件</text>
+  
+  <!-- 标签页 -->
+  <rect x="20" y="635" width="335" height="40" rx="20" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <rect x="25" y="640" width="100" height="30" rx="15" fill="#FF6B6B"/>
+  <text x="75" y="658" text-anchor="middle" fill="white" font-size="12">激活标签</text>
+  <text x="175" y="658" text-anchor="middle" fill="#6C757D" font-size="12">普通标签</text>
+  <text x="275" y="658" text-anchor="middle" fill="#6C757D" font-size="12">标签三</text>
+  
+  <!-- 底部导航 -->
+  <rect x="20" y="685" width="335" height="50" rx="8" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="60" y="715" text-anchor="middle" fill="#FF6B6B" font-size="20">🏠</text>
+  <text x="140" y="715" text-anchor="middle" fill="#6C757D" font-size="20">📂</text>
+  <text x="220" y="715" text-anchor="middle" fill="#6C757D" font-size="20">📖</text>
+  <text x="300" y="715" text-anchor="middle" fill="#6C757D" font-size="20">👤</text>
+  
+  <!-- 状态组件 -->
+  <text x="20" y="770" fill="#2C3E50" font-size="16" font-weight="bold">状态组件</text>
+  
+  <!-- 加载指示器 -->
+  <circle cx="50" cy="790" r="15" fill="none" stroke="#FF6B6B" stroke-width="2" stroke-dasharray="10,5">
+    <animateTransform attributeName="transform" type="rotate" values="0 50 790;360 50 790" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="80" y="795" fill="#2C3E50" font-size="12">加载中...</text>
+  
+  <!-- 成功状态 -->
+  <circle cx="180" cy="790" r="15" fill="#4ECDC4"/>
+  <text x="180" y="796" text-anchor="middle" fill="white" font-size="12">✓</text>
+  <text x="210" y="795" fill="#4ECDC4" font-size="12">成功</text>
+  
+  <!-- 错误状态 -->
+  <circle cx="280" cy="790" r="15" fill="#FF6B6B"/>
+  <text x="280" y="796" text-anchor="middle" fill="white" font-size="12">✗</text>
+  <text x="310" y="795" fill="#FF6B6B" font-size="12">错误</text>
+</svg>

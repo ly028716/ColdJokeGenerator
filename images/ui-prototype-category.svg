@@ -1,0 +1,99 @@
+<svg width="375" height="667" viewBox="0 0 375 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="375" height="667" fill="#F8F9FA"/>
+  
+  <!-- 顶部标题栏 -->
+  <rect width="375" height="60" fill="#FF6B6B"/>
+  <text x="187.5" y="35" text-anchor="middle" fill="white" font-size="18" font-weight="bold">笑话分类</text>
+  
+  <!-- 搜索框 -->
+  <rect x="20" y="80" width="335" height="40" rx="20" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="103" fill="#6C757D" font-size="14">🔍 搜索笑话分类...</text>
+  
+  <!-- 分类网格 -->
+  <g>
+    <!-- 第一行 -->
+    <rect x="20" y="140" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="72.5" y="170" text-anchor="middle" font-size="24">🏠</text>
+    <text x="72.5" y="195" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">生活</text>
+    <text x="72.5" y="210" text-anchor="middle" fill="#6C757D" font-size="12">128个</text>
+    
+    <rect x="135" y="140" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="187.5" y="170" text-anchor="middle" font-size="24">💼</text>
+    <text x="187.5" y="195" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">工作</text>
+    <text x="187.5" y="210" text-anchor="middle" fill="#6C757D" font-size="12">96个</text>
+    
+    <rect x="250" y="140" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="302.5" y="170" text-anchor="middle" font-size="24">📚</text>
+    <text x="302.5" y="195" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">学习</text>
+    <text x="302.5" y="210" text-anchor="middle" fill="#6C757D" font-size="12">75个</text>
+    
+    <!-- 第二行 -->
+    <rect x="20" y="230" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="72.5" y="260" text-anchor="middle" font-size="24">💕</text>
+    <text x="72.5" y="285" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">爱情</text>
+    <text x="72.5" y="300" text-anchor="middle" fill="#6C757D" font-size="12">64个</text>
+    
+    <rect x="135" y="230" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="187.5" y="260" text-anchor="middle" font-size="24">👥</text>
+    <text x="187.5" y="285" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">友情</text>
+    <text x="187.5" y="300" text-anchor="middle" fill="#6C757D" font-size="12">52个</text>
+    
+    <rect x="250" y="230" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="302.5" y="260" text-anchor="middle" font-size="24">👨‍👩‍👧‍👦</text>
+    <text x="302.5" y="285" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">家庭</text>
+    <text x="302.5" y="300" text-anchor="middle" fill="#6C757D" font-size="12">89个</text>
+    
+    <!-- 第三行 -->
+    <rect x="20" y="320" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="72.5" y="350" text-anchor="middle" font-size="24">💻</text>
+    <text x="72.5" y="375" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">科技</text>
+    <text x="72.5" y="390" text-anchor="middle" fill="#6C757D" font-size="12">43个</text>
+    
+    <rect x="135" y="320" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="187.5" y="350" text-anchor="middle" font-size="24">🍕</text>
+    <text x="187.5" y="375" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">美食</text>
+    <text x="187.5" y="390" text-anchor="middle" fill="#6C757D" font-size="12">67个</text>
+    
+    <rect x="250" y="320" width="105" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <text x="302.5" y="350" text-anchor="middle" font-size="24">✈️</text>
+    <text x="302.5" y="375" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">旅行</text>
+    <text x="302.5" y="390" text-anchor="middle" fill="#6C757D" font-size="12">38个</text>
+  </g>
+  
+  <!-- 热门推荐区域 -->
+  <rect x="20" y="420" width="335" height="140" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="445" fill="#2C3E50" font-size="16" font-weight="bold">🔥 热门推荐</text>
+  
+  <!-- 推荐笑话卡片 -->
+  <rect x="40" y="460" width="295" height="40" rx="8" fill="#FFF3CD" stroke="#FFE66D" stroke-width="1"/>
+  <text x="50" y="478" fill="#2C3E50" font-size="12">为什么程序员总是搞混万圣节和圣诞节？</text>
+  <text x="50" y="492" fill="#6C757D" font-size="10">因为 Oct 31 == Dec 25 😄</text>
+  
+  <rect x="40" y="510" width="295" height="40" rx="8" fill="#D1ECF1" stroke="#4ECDC4" stroke-width="1"/>
+  <text x="50" y="528" fill="#2C3E50" font-size="12">医生说我得了健忘症...</text>
+  <text x="50" y="542" fill="#6C757D" font-size="10">幸好我忘了这件事 🤔</text>
+  
+  <!-- 统计信息 -->
+  <rect x="20" y="580" width="335" height="40" rx="12" fill="#E7F3FF"/>
+  <text x="187.5" y="603" text-anchor="middle" fill="#2C3E50" font-size="14">共 9 个分类 | 总计 652 个笑话</text>
+  
+  <!-- 底部导航栏 -->
+  <rect y="617" width="375" height="50" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  
+  <!-- 导航项目 -->
+  <g>
+    <!-- 首页 -->
+    <text x="55" y="645" text-anchor="middle" fill="#6C757D" font-size="20">🏠</text>
+    
+    <!-- 分类 (激活状态) -->
+    <rect x="95" y="627" width="70" height="30" rx="15" fill="#FF6B6B" opacity="0.1"/>
+    <text x="130" y="645" text-anchor="middle" fill="#FF6B6B" font-size="20">📂</text>
+    
+    <!-- 历史 -->
+    <text x="205" y="645" text-anchor="middle" fill="#6C757D" font-size="20">📖</text>
+    
+    <!-- 个人 -->
+    <text x="280" y="645" text-anchor="middle" fill="#6C757D" font-size="20">👤</text>
+  </g>
+</svg>

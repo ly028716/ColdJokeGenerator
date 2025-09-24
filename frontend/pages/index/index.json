@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "joke-card": "../../components/joke-card/joke-card"
+  },
+  "navigationBarTitleText": "AI冷笑话生成器",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+}

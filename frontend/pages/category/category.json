@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "joke-card": "../../components/joke-card/joke-card"
+  },
+  "navigationBarTitleText": "笑话分类",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50
+}

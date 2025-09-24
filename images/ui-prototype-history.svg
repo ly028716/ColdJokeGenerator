@@ -1,0 +1,91 @@
+<svg width="375" height="667" viewBox="0 0 375 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="375" height="667" fill="#F8F9FA"/>
+  
+  <!-- 顶部标题栏 -->
+  <rect width="375" height="60" fill="#FF6B6B"/>
+  <text x="187.5" y="35" text-anchor="middle" fill="white" font-size="18" font-weight="bold">历史记录</text>
+  
+  <!-- 标签页切换 -->
+  <rect x="20" y="80" width="335" height="40" rx="20" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  
+  <!-- 浏览历史标签 (激活) -->
+  <rect x="25" y="85" width="160" height="30" rx="15" fill="#FF6B6B"/>
+  <text x="105" y="103" text-anchor="middle" fill="white" font-size="14" font-weight="bold">📖 浏览历史</text>
+  
+  <!-- 我的收藏标签 -->
+  <text x="270" y="103" text-anchor="middle" fill="#6C757D" font-size="14">❤️ 我的收藏</text>
+  
+  <!-- 工具栏 -->
+  <rect x="20" y="140" width="335" height="40" rx="8" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="163" fill="#6C757D" font-size="14">🔍 搜索历史...</text>
+  <text x="280" y="163" fill="#FF6B6B" font-size="14">编辑</text>
+  <text x="320" y="163" fill="#4ECDC4" font-size="14">📊</text>
+  
+  <!-- 统计信息卡片 -->
+  <rect x="20" y="200" width="335" height="60" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="40" y="220" fill="#2C3E50" font-size="14" font-weight="bold">今日统计</text>
+  <text x="40" y="240" fill="#6C757D" font-size="12">浏览 8 个 | 收藏 2 个 | 本周浏览 45 个</text>
+  <text x="40" y="252" fill="#6C757D" font-size="12">加入 15 天 | 总计浏览 156 个笑话</text>
+  
+  <!-- 笑话列表 -->
+  <g>
+    <!-- 笑话项目 1 -->
+    <rect x="20" y="280" width="335" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <circle cx="50" cy="305" r="8" fill="#FFE66D"/>
+    <text x="70" y="300" fill="#2C3E50" font-size="14" font-weight="bold">为什么程序员喜欢用Mac？</text>
+    <text x="70" y="318" fill="#495057" font-size="12">因为PC不能让他们装逼，只有Mac才能...</text>
+    <text x="70" y="335" fill="#6C757D" font-size="10">2小时前 | 科技 工作</text>
+    <text x="320" y="305" fill="#FF6B6B" font-size="16">❤️</text>
+    <text x="320" y="325" fill="#4ECDC4" font-size="16">📤</text>
+    
+    <!-- 笑话项目 2 -->
+    <rect x="20" y="370" width="335" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <circle cx="50" cy="395" r="8" fill="#4ECDC4"/>
+    <text x="70" y="390" fill="#2C3E50" font-size="14" font-weight="bold">医生说我得了健忘症...</text>
+    <text x="70" y="408" fill="#495057" font-size="12">幸好我忘了这件事 🤔</text>
+    <text x="70" y="425" fill="#6C757D" font-size="10">5小时前 | 生活 健康</text>
+    <text x="320" y="395" fill="#6C757D" font-size="16">🤍</text>
+    <text x="320" y="415" fill="#4ECDC4" font-size="16">📤</text>
+    
+    <!-- 笑话项目 3 -->
+    <rect x="20" y="460" width="335" height="80" rx="12" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+    <circle cx="50" cy="485" r="8" fill="#FF6B6B"/>
+    <text x="70" y="480" fill="#2C3E50" font-size="14" font-weight="bold">为什么熊猫不能当程序员？</text>
+    <text x="70" y="498" fill="#495057" font-size="12">因为它们只会Python，不会Java ☕</text>
+    <text x="70" y="515" fill="#6C757D" font-size="10">昨天 | 科技 动物</text>
+    <text x="320" y="485" fill="#FF6B6B" font-size="16">❤️</text>
+    <text x="320" y="505" fill="#4ECDC4" font-size="16">📤</text>
+  </g>
+  
+  <!-- 加载更多 -->
+  <rect x="20" y="560" width="335" height="40" rx="20" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  <text x="187.5" y="583" text-anchor="middle" fill="#6C757D" font-size="14">加载更多...</text>
+  
+  <!-- 底部导航栏 -->
+  <rect y="617" width="375" height="50" fill="white" stroke="#E9ECEF" stroke-width="1"/>
+  
+  <!-- 导航项目 -->
+  <g>
+    <!-- 首页 -->
+    <text x="55" y="645" text-anchor="middle" fill="#6C757D" font-size="20">🏠</text>
+    
+    <!-- 分类 -->
+    <text x="130" y="645" text-anchor="middle" fill="#6C757D" font-size="20">📂</text>
+    
+    <!-- 历史 (激活状态) -->
+    <rect x="170" y="627" width="70" height="30" rx="15" fill="#FF6B6B" opacity="0.1"/>
+    <text x="205" y="645" text-anchor="middle" fill="#FF6B6B" font-size="20">📖</text>
+    
+    <!-- 个人 -->
+    <text x="280" y="645" text-anchor="middle" fill="#6C757D" font-size="20">👤</text>
+  </g>
+  
+  <!-- 编辑模式指示器 (可选显示) -->
+  <g opacity="0.8">
+    <rect x="300" y="280" width="20" height="20" rx="4" fill="none" stroke="#FF6B6B" stroke-width="2"/>
+    <rect x="300" y="370" width="20" height="20" rx="4" fill="none" stroke="#E9ECEF" stroke-width="2"/>
+    <rect x="300" y="460" width="20" height="20" rx="4" fill="#FF6B6B"/>
+    <text x="310" y="473" text-anchor="middle" fill="white" font-size="12">✓</text>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<view class="loading-container {{show ? 'show' : ''}} {{fullscreen ? 'fullscreen' : ''}}" bindtap="onMaskTap" wx:if="{{show}}">
+  <view class="loading-content {{size}}" catchtap="">
+    
+    <!-- 默认加载样式 -->
+    <view class="loading-default {{animationClass}}" wx:if="{{type === 'default'}}" style="border-top-color: {{color}};">
+    </view>
+    
+    <!-- 点状加载样式 -->
+    <view class="loading-dots {{animationClass}}" wx:if="{{type === 'dots'}}">
+      <view class="dot" style="background-color: {{color}};"></view>
+      <view class="dot" style="background-color: {{color}};"></view>
+      <view class="dot" style="background-color: {{color}};"></view>
+    </view>
+    
+    <!-- 旋转器加载样式 -->
+    <view class="loading-spinner {{animationClass}}" wx:if="{{type === 'spinner'}}">
+      <view class="spinner-item" wx:for="{{12}}" wx:key="*this" style="background-color: {{color}};"></view>
+    </view>
+    
+    <!-- 加载文本 -->
+    <text class="loading-text" wx:if="{{text}}" style="color: {{color}};">{{text}}</text>
+  </view>
+</view>

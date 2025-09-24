@@ -1,0 +1,134 @@
+<view class="container">
+  <!-- 顶部标题栏 -->
+  <view class="header">
+    <text class="header-title">历史记录</text>
+  </view>
+
+  <!-- 搜索框 -->
+  <view class="search-section">
+    <view class="search-bar">
+      <text class="search-icon">🔍</text>
+      <input 
+        class="search-input" 
+        placeholder="搜索历史记录..." 
+        value="{{searchKeyword}}"
+        bindinput="onSearchInput" />
+    </view>
+  </view>
+
+  <!-- 统计卡片 -->
+  <view class="stats-section">
+    <view class="stats-card">
+      <view class="stat-item">
+        <text class="stat-number">{{statistics.totalViewed}}</text>
+        <text class="stat-label">总浏览</text>
+      </view>
+      <view class="stat-divider"></view>
+      <view class="stat-item">
+        <text class="stat-number">{{statistics.totalFavorited}}</text>
+        <text class="stat-label">总收藏</text>
+      </view>
+      <view class="stat-divider"></view>
+      <view class="stat-item">
+        <text class="stat-number">{{statistics.todayViewed}}</text>
+        <text class="stat-label">今日</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 标签页切换 -->
+  <view class="tabs-section">
+    <view class="tabs-container">
+      <view 
+        class="tab-item {{currentTab === item.id ? 'active' : ''}}"
+        wx:for="{{tabs}}" 
+        wx:key="id"
+        data-id="{{item.id}}"
+        bindtap="switchTab">
+        <text class="tab-icon">{{item.icon}}</text>
+        <text class="tab-name">{{item.name}}</text>
+      </view>
+    </view>
+    
+    <!-- 操作按钮 -->
+    <view class="tab-actions">
+      <view class="action-btn" bindtap="toggleEditMode">
+        <text class="action-icon">{{isEditMode ? '完成' : '编辑'}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 编辑模式工具栏 -->
+  <view class="edit-toolbar" wx:if="{{isEditMode}}">
+    <view class="toolbar-left">
+      <view class="select-all-btn" bindtap="toggleSelectAll">
+        <text class="select-icon">{{selectedItems.length === getCurrentList().length && getCurrentList().length > 0 ? '☑️' : '☐'}}</text>
+        <text class="select-text">全选</text>
+      </view>
+      <text class="selected-count">已选择 {{selectedItems.length}} 项</text>
+    </view>
+    <view class="toolbar-right">
+      <view class="toolbar-btn delete-btn" bindtap="deleteSelectedItems" wx:if="{{selectedItems.length > 0}}">
+        <text class="btn-icon">🗑️</text>
+        <text class="btn-text">删除</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 笑话列表 -->
+  <view class="content-section">
+    <view class="jokes-list" wx:if="{{filteredList.length > 0}}">
+      <view 
+        class="joke-item {{isEditMode && isItemSelected(item.id) ? 'selected' : ''}}"
+        wx:for="{{filteredList}}" 
+        wx:key="id">
+        
+        <!-- 选择框 -->
+        <view class="select-checkbox" wx:if="{{isEditMode}}" bindtap="toggleSelectItem" data-joke="{{item}}">
+          <text class="checkbox-icon">{{isItemSelected(item.id) ? '☑️' : '☐'}}</text>
+        </view>
+        
+        <!-- 笑话内容 -->
+        <view class="joke-content" bindtap="onJokeClick" data-joke="{{item}}">
+          <text class="joke-text">{{item.content}}</text>
+          <view class="joke-meta">
+            <text class="joke-time">{{currentTab === 0 ? item.viewTime : item.favoriteTime}}</text>
+            <text class="joke-category" wx:if="{{item.category}}">{{item.category}}</text>
+          </view>
+        </view>
+        
+        <!-- 操作按钮 -->
+        <view class="joke-actions" wx:if="{{!isEditMode}}">
+          <view class="action-btn" bindtap="onJokeCopy" data-joke="{{item}}">
+            <text class="action-icon">📋</text>
+          </view>
+          <view class="action-btn" bindtap="onJokeFavorite" data-joke="{{item}}">
+            <text class="action-icon">{{currentTab === 1 ? '💔' : '❤️'}}</text>
+          </view>
+          <view class="action-btn" bindtap="onJokeShare" data-joke="{{item}}">
+            <text class="action-icon">📤</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 空状态 -->
+    <view class="empty-state" wx:if="{{filteredList.length === 0 && !isLoading}}">
+      <text class="empty-icon">{{tabs[currentTab].icon}}</text>
+      <text class="empty-title">{{searchKeyword ? '没有找到相关内容' : '暂无' + tabs[currentTab].name}}</text>
+      <text class="empty-desc" wx:if="{{!searchKeyword}}">
+        {{currentTab === 0 ? '浏览过的笑话会出现在这里' : '收藏的笑话会出现在这里'}}
+      </text>
+      <view class="empty-action" wx:if="{{!searchKeyword}}" bindtap="goToIndex">
+        <text class="action-text">去生成笑话</text>
+      </view>
+    </view>
+
+    <!-- 加载状态 -->
+    <view class="loading-state" wx:if="{{isLoading}}">
+      <text class="loading-icon">⏳</text>
+      <text class="loading-text">加载中...</text>
+    </view>
+  </view>
+
+</view>

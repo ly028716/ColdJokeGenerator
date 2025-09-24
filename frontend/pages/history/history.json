@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "joke-card": "../../components/joke-card/joke-card"
+  },
+  "navigationBarTitleText": "历史记录",
+  "enablePullDownRefresh": true
+}

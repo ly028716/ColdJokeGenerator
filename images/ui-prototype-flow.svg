@@ -1,0 +1,147 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="30" text-anchor="middle" fill="#2C3E50" font-size="20" font-weight="bold">用户流程图</text>
+  
+  <!-- 开始节点 -->
+  <ellipse cx="100" cy="80" rx="60" ry="30" fill="#4ECDC4"/>
+  <text x="100" y="88" text-anchor="middle" fill="white" font-size="14" font-weight="bold">开始</text>
+  
+  <!-- 首页 -->
+  <rect x="50" y="150" width="100" height="60" rx="8" fill="#FF6B6B"/>
+  <text x="100" y="175" text-anchor="middle" fill="white" font-size="12" font-weight="bold">首页</text>
+  <text x="100" y="190" text-anchor="middle" fill="white" font-size="10">笑话生成</text>
+  
+  <!-- 箭头：开始到首页 -->
+  <path d="M100 110 L100 140" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 分类页面 -->
+  <rect x="200" y="150" width="100" height="60" rx="8" fill="#FFE66D"/>
+  <text x="250" y="175" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">分类页面</text>
+  <text x="250" y="190" text-anchor="middle" fill="#2C3E50" font-size="10">按类别浏览</text>
+  
+  <!-- 箭头：首页到分类 -->
+  <path d="M150 180 L190 180" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 历史页面 -->
+  <rect x="350" y="150" width="100" height="60" rx="8" fill="#D1ECF1"/>
+  <text x="400" y="175" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">历史页面</text>
+  <text x="400" y="190" text-anchor="middle" fill="#2C3E50" font-size="10">浏览记录</text>
+  
+  <!-- 箭头：分类到历史 -->
+  <path d="M300 180 L340 180" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 个人中心 -->
+  <rect x="500" y="150" width="100" height="60" rx="8" fill="#F8D7DA"/>
+  <text x="550" y="175" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">个人中心</text>
+  <text x="550" y="190" text-anchor="middle" fill="#2C3E50" font-size="10">用户设置</text>
+  
+  <!-- 箭头：历史到个人 -->
+  <path d="M450 180 L490 180" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 笑话生成流程 -->
+  <text x="100" y="280" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">笑话生成流程</text>
+  
+  <!-- 设置参数 -->
+  <rect x="50" y="300" width="100" height="40" rx="8" fill="white" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="100" y="325" text-anchor="middle" fill="#FF6B6B" font-size="12">设置参数</text>
+  
+  <!-- 生成笑话 -->
+  <rect x="200" y="300" width="100" height="40" rx="8" fill="white" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="250" y="325" text-anchor="middle" fill="#FF6B6B" font-size="12">生成笑话</text>
+  
+  <!-- 显示结果 -->
+  <rect x="350" y="300" width="100" height="40" rx="8" fill="white" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="400" y="325" text-anchor="middle" fill="#FF6B6B" font-size="12">显示结果</text>
+  
+  <!-- 用户操作 -->
+  <rect x="500" y="300" width="100" height="40" rx="8" fill="white" stroke="#FF6B6B" stroke-width="2"/>
+  <text x="550" y="325" text-anchor="middle" fill="#FF6B6B" font-size="12">用户操作</text>
+  
+  <!-- 箭头：生成流程 -->
+  <path d="M150 320 L190 320" stroke="#FF6B6B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M300 320 L340 320" stroke="#FF6B6B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M450 320 L490 320" stroke="#FF6B6B" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 用户操作分支 -->
+  <text x="400" y="400" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">用户操作选择</text>
+  
+  <!-- 收藏 -->
+  <rect x="200" y="420" width="80" height="40" rx="8" fill="#FFE66D"/>
+  <text x="240" y="445" text-anchor="middle" fill="#2C3E50" font-size="12">❤️ 收藏</text>
+  
+  <!-- 分享 -->
+  <rect x="300" y="420" width="80" height="40" rx="8" fill="#4ECDC4"/>
+  <text x="340" y="445" text-anchor="middle" fill="white" font-size="12">📤 分享</text>
+  
+  <!-- 重新生成 -->
+  <rect x="400" y="420" width="80" height="40" rx="8" fill="#D1ECF1"/>
+  <text x="440" y="445" text-anchor="middle" fill="#2C3E50" font-size="12">🎲 重生成</text>
+  
+  <!-- 复制 -->
+  <rect x="500" y="420" width="80" height="40" rx="8" fill="#D4EDDA"/>
+  <text x="540" y="445" text-anchor="middle" fill="#2C3E50" font-size="12">📋 复制</text>
+  
+  <!-- 箭头：用户操作到选择 -->
+  <path d="M550 340 L550 380 L240 380 L240 410" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M550 380 L340 380 L340 410" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M550 380 L440 380 L440 410" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M550 380 L540 380 L540 410" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 数据流向 -->
+  <text x="650" y="100" fill="#2C3E50" font-size="16" font-weight="bold">数据流向</text>
+  
+  <!-- 本地存储 -->
+  <rect x="620" y="120" width="100" height="40" rx="8" fill="#E7F3FF"/>
+  <text x="670" y="145" text-anchor="middle" fill="#2C3E50" font-size="12">本地存储</text>
+  
+  <!-- 历史记录 -->
+  <rect x="620" y="180" width="100" height="40" rx="8" fill="#FFF3CD"/>
+  <text x="670" y="205" text-anchor="middle" fill="#2C3E50" font-size="12">历史记录</text>
+  
+  <!-- 收藏列表 -->
+  <rect x="620" y="240" width="100" height="40" rx="8" fill="#F8D7DA"/>
+  <text x="670" y="265" text-anchor="middle" fill="#2C3E50" font-size="12">收藏列表</text>
+  
+  <!-- 用户偏好 -->
+  <rect x="620" y="300" width="100" height="40" rx="8" fill="#D4EDDA"/>
+  <text x="670" y="325" text-anchor="middle" fill="#2C3E50" font-size="12">用户偏好</text>
+  
+  <!-- 箭头：数据流 -->
+  <path d="M670 160 L670 170" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M670 220 L670 230" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M670 280 L670 290" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 错误处理流程 -->
+  <text x="400" y="520" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">错误处理流程</text>
+  
+  <!-- 网络错误 -->
+  <rect x="150" y="540" width="100" height="40" rx="8" fill="#F8D7DA"/>
+  <text x="200" y="565" text-anchor="middle" fill="#2C3E50" font-size="12">网络错误</text>
+  
+  <!-- 重试机制 -->
+  <rect x="300" y="540" width="100" height="40" rx="8" fill="#FFE66D"/>
+  <text x="350" y="565" text-anchor="middle" fill="#2C3E50" font-size="12">重试机制</text>
+  
+  <!-- 降级处理 -->
+  <rect x="450" y="540" width="100" height="40" rx="8" fill="#D1ECF1"/>
+  <text x="500" y="565" text-anchor="middle" fill="#2C3E50" font-size="12">降级处理</text>
+  
+  <!-- 用户提示 -->
+  <rect x="600" y="540" width="100" height="40" rx="8" fill="#D4EDDA"/>
+  <text x="650" y="565" text-anchor="middle" fill="#2C3E50" font-size="12">用户提示</text>
+  
+  <!-- 箭头：错误处理 -->
+  <path d="M250 560 L290 560" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M400 560 L440 560" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M550 560 L590 560" stroke="#2C3E50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2C3E50"/>
+    </marker>
+  </defs>
+</svg>

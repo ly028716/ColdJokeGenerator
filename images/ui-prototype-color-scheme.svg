@@ -1,0 +1,172 @@
+<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="800" fill="#F8F9FA"/>
+  
+  <!-- 标题 -->
+  <text x="300" y="30" text-anchor="middle" fill="#2C3E50" font-size="24" font-weight="bold">色彩方案设计</text>
+  
+  <!-- 主色调 -->
+  <text x="50" y="70" fill="#2C3E50" font-size="18" font-weight="bold">主色调</text>
+  
+  <!-- 主红色 -->
+  <rect x="50" y="80" width="100" height="60" rx="8" fill="#FF6B6B"/>
+  <text x="100" y="105" text-anchor="middle" fill="white" font-size="14" font-weight="bold">主色调</text>
+  <text x="100" y="120" text-anchor="middle" fill="white" font-size="12">#FF6B6B</text>
+  <text x="100" y="135" text-anchor="middle" fill="white" font-size="10">温暖红色</text>
+  
+  <!-- 主色调变体 -->
+  <rect x="170" y="80" width="80" height="60" rx="8" fill="#FF5252"/>
+  <text x="210" y="105" text-anchor="middle" fill="white" font-size="12">深色</text>
+  <text x="210" y="120" text-anchor="middle" fill="white" font-size="10">#FF5252</text>
+  
+  <rect x="270" y="80" width="80" height="60" rx="8" fill="#FF8A80"/>
+  <text x="310" y="105" text-anchor="middle" fill="white" font-size="12">浅色</text>
+  <text x="310" y="120" text-anchor="middle" fill="white" font-size="10">#FF8A80</text>
+  
+  <rect x="370" y="80" width="80" height="60" rx="8" fill="#FFEBEE"/>
+  <text x="410" y="105" text-anchor="middle" fill="#2C3E50" font-size="12">极浅</text>
+  <text x="410" y="120" text-anchor="middle" fill="#2C3E50" font-size="10">#FFEBEE</text>
+  
+  <!-- 辅助色 -->
+  <text x="50" y="180" fill="#2C3E50" font-size="18" font-weight="bold">辅助色</text>
+  
+  <!-- 青色 -->
+  <rect x="50" y="190" width="100" height="60" rx="8" fill="#4ECDC4"/>
+  <text x="100" y="215" text-anchor="middle" fill="white" font-size="14" font-weight="bold">辅助色</text>
+  <text x="100" y="230" text-anchor="middle" fill="white" font-size="12">#4ECDC4</text>
+  <text x="100" y="245" text-anchor="middle" fill="white" font-size="10">清新青色</text>
+  
+  <!-- 辅助色变体 -->
+  <rect x="170" y="190" width="80" height="60" rx="8" fill="#26A69A"/>
+  <text x="210" y="215" text-anchor="middle" fill="white" font-size="12">深色</text>
+  <text x="210" y="230" text-anchor="middle" fill="white" font-size="10">#26A69A</text>
+  
+  <rect x="270" y="190" width="80" height="60" rx="8" fill="#80CBC4"/>
+  <text x="310" y="215" text-anchor="middle" fill="white" font-size="12">浅色</text>
+  <text x="310" y="230" text-anchor="middle" fill="white" font-size="10">#80CBC4</text>
+  
+  <rect x="370" y="190" width="80" height="60" rx="8" fill="#E0F2F1"/>
+  <text x="410" y="215" text-anchor="middle" fill="#2C3E50" font-size="12">极浅</text>
+  <text x="410" y="230" text-anchor="middle" fill="#2C3E50" font-size="10">#E0F2F1</text>
+  
+  <!-- 强调色 -->
+  <text x="50" y="290" fill="#2C3E50" font-size="18" font-weight="bold">强调色</text>
+  
+  <!-- 黄色 -->
+  <rect x="50" y="300" width="100" height="60" rx="8" fill="#FFE66D"/>
+  <text x="100" y="325" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">强调色</text>
+  <text x="100" y="340" text-anchor="middle" fill="#2C3E50" font-size="12">#FFE66D</text>
+  <text x="100" y="355" text-anchor="middle" fill="#2C3E50" font-size="10">明亮黄色</text>
+  
+  <!-- 强调色变体 -->
+  <rect x="170" y="300" width="80" height="60" rx="8" fill="#FFC107"/>
+  <text x="210" y="325" text-anchor="middle" fill="#2C3E50" font-size="12">深色</text>
+  <text x="210" y="340" text-anchor="middle" fill="#2C3E50" font-size="10">#FFC107</text>
+  
+  <rect x="270" y="300" width="80" height="60" rx="8" fill="#FFF176"/>
+  <text x="310" y="325" text-anchor="middle" fill="#2C3E50" font-size="12">浅色</text>
+  <text x="310" y="340" text-anchor="middle" fill="#2C3E50" font-size="10">#FFF176</text>
+  
+  <rect x="370" y="300" width="80" height="60" rx="8" fill="#FFFDE7"/>
+  <text x="410" y="325" text-anchor="middle" fill="#2C3E50" font-size="12">极浅</text>
+  <text x="410" y="340" text-anchor="middle" fill="#2C3E50" font-size="10">#FFFDE7</text>
+  
+  <!-- 中性色 -->
+  <text x="50" y="400" fill="#2C3E50" font-size="18" font-weight="bold">中性色</text>
+  
+  <!-- 深色文字 -->
+  <rect x="50" y="410" width="80" height="50" rx="8" fill="#2C3E50"/>
+  <text x="90" y="435" text-anchor="middle" fill="white" font-size="12">主文字</text>
+  <text x="90" y="450" text-anchor="middle" fill="white" font-size="10">#2C3E50</text>
+  
+  <!-- 次要文字 -->
+  <rect x="140" y="410" width="80" height="50" rx="8" fill="#495057"/>
+  <text x="180" y="435" text-anchor="middle" fill="white" font-size="12">次要文字</text>
+  <text x="180" y="450" text-anchor="middle" fill="white" font-size="10">#495057</text>
+  
+  <!-- 辅助文字 -->
+  <rect x="230" y="410" width="80" height="50" rx="8" fill="#6C757D"/>
+  <text x="270" y="435" text-anchor="middle" fill="white" font-size="12">辅助文字</text>
+  <text x="270" y="450" text-anchor="middle" fill="white" font-size="10">#6C757D</text>
+  
+  <!-- 禁用文字 -->
+  <rect x="320" y="410" width="80" height="50" rx="8" fill="#ADB5BD"/>
+  <text x="360" y="435" text-anchor="middle" fill="white" font-size="12">禁用文字</text>
+  <text x="360" y="450" text-anchor="middle" fill="white" font-size="10">#ADB5BD</text>
+  
+  <!-- 背景色 -->
+  <text x="50" y="500" fill="#2C3E50" font-size="18" font-weight="bold">背景色</text>
+  
+  <!-- 主背景 -->
+  <rect x="50" y="510" width="80" height="50" rx="8" fill="#F8F9FA" stroke="#E9ECEF"/>
+  <text x="90" y="535" text-anchor="middle" fill="#2C3E50" font-size="12">主背景</text>
+  <text x="90" y="550" text-anchor="middle" fill="#2C3E50" font-size="10">#F8F9FA</text>
+  
+  <!-- 卡片背景 -->
+  <rect x="140" y="510" width="80" height="50" rx="8" fill="#FFFFFF" stroke="#E9ECEF"/>
+  <text x="180" y="535" text-anchor="middle" fill="#2C3E50" font-size="12">卡片背景</text>
+  <text x="180" y="550" text-anchor="middle" fill="#2C3E50" font-size="10">#FFFFFF</text>
+  
+  <!-- 分割线 -->
+  <rect x="230" y="510" width="80" height="50" rx="8" fill="#E9ECEF"/>
+  <text x="270" y="535" text-anchor="middle" fill="#2C3E50" font-size="12">分割线</text>
+  <text x="270" y="550" text-anchor="middle" fill="#2C3E50" font-size="10">#E9ECEF</text>
+  
+  <!-- 边框色 -->
+  <rect x="320" y="510" width="80" height="50" rx="8" fill="#DEE2E6"/>
+  <text x="360" y="535" text-anchor="middle" fill="#2C3E50" font-size="12">边框色</text>
+  <text x="360" y="550" text-anchor="middle" fill="#2C3E50" font-size="10">#DEE2E6</text>
+  
+  <!-- 状态色 -->
+  <text x="50" y="600" fill="#2C3E50" font-size="18" font-weight="bold">状态色</text>
+  
+  <!-- 成功色 -->
+  <rect x="50" y="610" width="80" height="50" rx="8" fill="#28A745"/>
+  <text x="90" y="635" text-anchor="middle" fill="white" font-size="12">成功</text>
+  <text x="90" y="650" text-anchor="middle" fill="white" font-size="10">#28A745</text>
+  
+  <!-- 警告色 -->
+  <rect x="140" y="610" width="80" height="50" rx="8" fill="#FFC107"/>
+  <text x="180" y="635" text-anchor="middle" fill="#2C3E50" font-size="12">警告</text>
+  <text x="180" y="650" text-anchor="middle" fill="#2C3E50" font-size="10">#FFC107</text>
+  
+  <!-- 错误色 -->
+  <rect x="230" y="610" width="80" height="50" rx="8" fill="#DC3545"/>
+  <text x="270" y="635" text-anchor="middle" fill="white" font-size="12">错误</text>
+  <text x="270" y="650" text-anchor="middle" fill="white" font-size="10">#DC3545</text>
+  
+  <!-- 信息色 -->
+  <rect x="320" y="610" width="80" height="50" rx="8" fill="#17A2B8"/>
+  <text x="360" y="635" text-anchor="middle" fill="white" font-size="12">信息</text>
+  <text x="360" y="650" text-anchor="middle" fill="white" font-size="10">#17A2B8</text>
+  
+  <!-- 色彩应用示例 -->
+  <text x="300" y="720" text-anchor="middle" fill="#2C3E50" font-size="18" font-weight="bold">色彩应用示例</text>
+  
+  <!-- 示例卡片 -->
+  <rect x="50" y="740" width="500" height="40" rx="8" fill="#FFFFFF" stroke="#E9ECEF"/>
+  
+  <!-- 主按钮 -->
+  <rect x="70" y="750" width="60" height="20" rx="10" fill="#FF6B6B"/>
+  <text x="100" y="762" text-anchor="middle" fill="white" font-size="8">生成笑话</text>
+  
+  <!-- 辅助按钮 -->
+  <rect x="140" y="750" width="50" height="20" rx="10" fill="#4ECDC4"/>
+  <text x="165" y="762" text-anchor="middle" fill="white" font-size="8">收藏</text>
+  
+  <!-- 强调按钮 -->
+  <rect x="200" y="750" width="50" height="20" rx="10" fill="#FFE66D"/>
+  <text x="225" y="762" text-anchor="middle" fill="#2C3E50" font-size="8">分享</text>
+  
+  <!-- 文字示例 -->
+  <text x="270" y="758" fill="#2C3E50" font-size="10" font-weight="bold">主要文字</text>
+  <text x="330" y="758" fill="#495057" font-size="9">次要文字</text>
+  <text x="380" y="758" fill="#6C757D" font-size="8">辅助文字</text>
+  
+  <!-- 状态指示 -->
+  <circle cx="450" cy="760" r="5" fill="#28A745"/>
+  <text x="465" y="763" fill="#28A745" font-size="8">在线</text>
+  
+  <circle cx="500" cy="760" r="5" fill="#FFC107"/>
+  <text x="515" y="763" fill="#FFC107" font-size="8">警告</text>
+</svg>

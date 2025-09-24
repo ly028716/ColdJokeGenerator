@@ -1,0 +1,157 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#F8F9FA"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="30" text-anchor="middle" fill="#2C3E50" font-size="20" font-weight="bold">响应式设计适配</text>
+  
+  <!-- 小屏设备 (iPhone SE - 375px) -->
+  <text x="120" y="70" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">小屏设备 (375px)</text>
+  
+  <!-- 小屏设备框架 -->
+  <rect x="50" y="80" width="140" height="250" rx="20" fill="white" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="60" y="90" width="120" height="20" rx="10" fill="#FF6B6B"/>
+  <text x="120" y="103" text-anchor="middle" fill="white" font-size="8">AI冷笑话生成器</text>
+  
+  <!-- 小屏内容区域 -->
+  <rect x="65" y="120" width="110" height="60" rx="5" fill="#F8F9FA" stroke="#E9ECEF"/>
+  <text x="120" y="135" text-anchor="middle" fill="#2C3E50" font-size="6">笑话内容区域</text>
+  <text x="120" y="145" text-anchor="middle" fill="#6C757D" font-size="5">紧凑布局</text>
+  <text x="120" y="155" text-anchor="middle" fill="#6C757D" font-size="5">单列显示</text>
+  <text x="120" y="165" text-anchor="middle" fill="#6C757D" font-size="5">按钮堆叠</text>
+  
+  <!-- 小屏按钮 -->
+  <rect x="70" y="190" width="30" height="15" rx="7" fill="#FF6B6B"/>
+  <text x="85" y="200" text-anchor="middle" fill="white" font-size="5">生成</text>
+  <rect x="105" y="190" width="25" height="15" rx="7" fill="#FFE66D"/>
+  <text x="117.5" y="200" text-anchor="middle" fill="#2C3E50" font-size="5">收藏</text>
+  <rect x="135" y="190" width="25" height="15" rx="7" fill="#4ECDC4"/>
+  <text x="147.5" y="200" text-anchor="middle" fill="white" font-size="5">分享</text>
+  
+  <!-- 小屏导航 -->
+  <rect x="60" y="300" width="120" height="20" rx="5" fill="white" stroke="#E9ECEF"/>
+  <text x="80" y="312" text-anchor="middle" fill="#FF6B6B" font-size="8">🏠</text>
+  <text x="100" y="312" text-anchor="middle" fill="#6C757D" font-size="8">📂</text>
+  <text x="120" y="312" text-anchor="middle" fill="#6C757D" font-size="8">📖</text>
+  <text x="140" y="312" text-anchor="middle" fill="#6C757D" font-size="8">👤</text>
+  
+  <!-- 中屏设备 (iPhone 12 - 390px) -->
+  <text x="300" y="70" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">中屏设备 (390px)</text>
+  
+  <!-- 中屏设备框架 -->
+  <rect x="220" y="80" width="160" height="250" rx="20" fill="white" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="230" y="90" width="140" height="20" rx="10" fill="#FF6B6B"/>
+  <text x="300" y="103" text-anchor="middle" fill="white" font-size="9">AI冷笑话生成器</text>
+  
+  <!-- 中屏内容区域 -->
+  <rect x="235" y="120" width="130" height="70" rx="5" fill="#F8F9FA" stroke="#E9ECEF"/>
+  <text x="300" y="135" text-anchor="middle" fill="#2C3E50" font-size="7">笑话内容区域</text>
+  <text x="300" y="145" text-anchor="middle" fill="#6C757D" font-size="6">标准布局</text>
+  <text x="300" y="155" text-anchor="middle" fill="#6C757D" font-size="6">适中间距</text>
+  <text x="300" y="165" text-anchor="middle" fill="#6C757D" font-size="6">按钮并排</text>
+  <text x="300" y="175" text-anchor="middle" fill="#6C757D" font-size="6">更多内容</text>
+  
+  <!-- 中屏按钮 -->
+  <rect x="240" y="200" width="35" height="18" rx="9" fill="#FF6B6B"/>
+  <text x="257.5" y="212" text-anchor="middle" fill="white" font-size="6">生成</text>
+  <rect x="280" y="200" width="30" height="18" rx="9" fill="#FFE66D"/>
+  <text x="295" y="212" text-anchor="middle" fill="#2C3E50" font-size="6">收藏</text>
+  <rect x="315" y="200" width="30" height="18" rx="9" fill="#4ECDC4"/>
+  <text x="330" y="212" text-anchor="middle" fill="white" font-size="6">分享</text>
+  
+  <!-- 中屏参数设置 -->
+  <rect x="235" y="230" width="130" height="40" rx="5" fill="#F8F9FA" stroke="#E9ECEF"/>
+  <text x="300" y="245" text-anchor="middle" fill="#2C3E50" font-size="6">参数设置区域</text>
+  <rect x="245" y="250" width="110" height="3" rx="1" fill="#E9ECEF"/>
+  <rect x="245" y="250" width="55" height="3" rx="1" fill="#FF6B6B"/>
+  <circle cx="300" cy="251.5" r="4" fill="#FF6B6B"/>
+  
+  <!-- 中屏导航 -->
+  <rect x="230" y="300" width="140" height="20" rx="5" fill="white" stroke="#E9ECEF"/>
+  <text x="255" y="312" text-anchor="middle" fill="#FF6B6B" font-size="10">🏠</text>
+  <text x="285" y="312" text-anchor="middle" fill="#6C757D" font-size="10">📂</text>
+  <text x="315" y="312" text-anchor="middle" fill="#6C757D" font-size="10">📖</text>
+  <text x="345" y="312" text-anchor="middle" fill="#6C757D" font-size="10">👤</text>
+  
+  <!-- 大屏设备 (iPhone 12 Pro Max - 428px) -->
+  <text x="520" y="70" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">大屏设备 (428px)</text>
+  
+  <!-- 大屏设备框架 -->
+  <rect x="420" y="80" width="200" height="250" rx="20" fill="white" stroke="#2C3E50" stroke-width="2"/>
+  <rect x="430" y="90" width="180" height="20" rx="10" fill="#FF6B6B"/>
+  <text x="520" y="103" text-anchor="middle" fill="white" font-size="10">AI冷笑话生成器</text>
+  
+  <!-- 大屏内容区域 -->
+  <rect x="435" y="120" width="170" height="80" rx="5" fill="#F8F9FA" stroke="#E9ECEF"/>
+  <text x="520" y="135" text-anchor="middle" fill="#2C3E50" font-size="8">笑话内容区域</text>
+  <text x="520" y="145" text-anchor="middle" fill="#6C757D" font-size="7">宽松布局</text>
+  <text x="520" y="155" text-anchor="middle" fill="#6C757D" font-size="7">更大间距</text>
+  <text x="520" y="165" text-anchor="middle" fill="#6C757D" font-size="7">更多按钮</text>
+  <text x="520" y="175" text-anchor="middle" fill="#6C757D" font-size="7">丰富内容</text>
+  <text x="520" y="185" text-anchor="middle" fill="#6C757D" font-size="7">侧边信息</text>
+  
+  <!-- 大屏按钮 -->
+  <rect x="445" y="210" width="40" height="20" rx="10" fill="#FF6B6B"/>
+  <text x="465" y="223" text-anchor="middle" fill="white" font-size="7">生成</text>
+  <rect x="490" y="210" width="35" height="20" rx="10" fill="#FFE66D"/>
+  <text x="507.5" y="223" text-anchor="middle" fill="#2C3E50" font-size="7">收藏</text>
+  <rect x="530" y="210" width="35" height="20" rx="10" fill="#4ECDC4"/>
+  <text x="547.5" y="223" text-anchor="middle" fill="white" font-size="7">分享</text>
+  <rect x="570" y="210" width="30" height="20" rx="10" fill="#D1ECF1"/>
+  <text x="585" y="223" text-anchor="middle" fill="#2C3E50" font-size="7">更多</text>
+  
+  <!-- 大屏参数设置 -->
+  <rect x="435" y="240" width="170" height="30" rx="5" fill="#F8F9FA" stroke="#E9ECEF"/>
+  <text x="520" y="252" text-anchor="middle" fill="#2C3E50" font-size="7">参数设置区域</text>
+  <rect x="450" y="258" width="140" height="3" rx="1" fill="#E9ECEF"/>
+  <rect x="450" y="258" width="70" height="3" rx="1" fill="#FF6B6B"/>
+  <circle cx="520" cy="259.5" r="5" fill="#FF6B6B"/>
+  
+  <!-- 大屏导航 -->
+  <rect x="430" y="300" width="180" height="20" rx="5" fill="white" stroke="#E9ECEF"/>
+  <text x="465" y="312" text-anchor="middle" fill="#FF6B6B" font-size="12">🏠</text>
+  <text x="505" y="312" text-anchor="middle" fill="#6C757D" font-size="12">📂</text>
+  <text x="545" y="312" text-anchor="middle" fill="#6C757D" font-size="12">📖</text>
+  <text x="585" y="312" text-anchor="middle" fill="#6C757D" font-size="12">👤</text>
+  
+  <!-- 适配策略说明 -->
+  <text x="400" y="380" text-anchor="middle" fill="#2C3E50" font-size="18" font-weight="bold">适配策略</text>
+  
+  <!-- 策略卡片 -->
+  <rect x="50" y="400" width="200" height="80" rx="8" fill="white" stroke="#E9ECEF"/>
+  <text x="150" y="420" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">布局适配</text>
+  <text x="60" y="440" fill="#495057" font-size="11">• 使用相对单位 (rpx)</text>
+  <text x="60" y="455" fill="#495057" font-size="11">• 弹性布局 (flex)</text>
+  <text x="60" y="470" fill="#495057" font-size="11">• 响应式网格系统</text>
+  
+  <rect x="270" y="400" width="200" height="80" rx="8" fill="white" stroke="#E9ECEF"/>
+  <text x="370" y="420" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">内容适配</text>
+  <text x="280" y="440" fill="#495057" font-size="11">• 关键内容优先显示</text>
+  <text x="280" y="455" fill="#495057" font-size="11">• 渐进式信息展示</text>
+  <text x="280" y="470" fill="#495057" font-size="11">• 智能内容折叠</text>
+  
+  <rect x="490" y="400" width="200" height="80" rx="8" fill="white" stroke="#E9ECEF"/>
+  <text x="590" y="420" text-anchor="middle" fill="#2C3E50" font-size="14" font-weight="bold">交互适配</text>
+  <text x="500" y="440" fill="#495057" font-size="11">• 触摸目标最小44px</text>
+  <text x="500" y="455" fill="#495057" font-size="11">• 手势操作优化</text>
+  <text x="500" y="470" fill="#495057" font-size="11">• 可访问性支持</text>
+  
+  <!-- 断点说明 -->
+  <text x="400" y="520" text-anchor="middle" fill="#2C3E50" font-size="16" font-weight="bold">响应式断点</text>
+  
+  <rect x="100" y="540" width="120" height="40" rx="8" fill="#FFF3CD"/>
+  <text x="160" y="558" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">小屏 ≤ 375px</text>
+  <text x="160" y="572" text-anchor="middle" fill="#6C757D" font-size="10">紧凑布局</text>
+  
+  <rect x="240" y="540" width="120" height="40" rx="8" fill="#D1ECF1"/>
+  <text x="300" y="558" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">中屏 375-414px</text>
+  <text x="300" y="572" text-anchor="middle" fill="#6C757D" font-size="10">标准布局</text>
+  
+  <rect x="380" y="540" width="120" height="40" rx="8" fill="#D4EDDA"/>
+  <text x="440" y="558" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">大屏 ≥ 414px</text>
+  <text x="440" y="572" text-anchor="middle" fill="#6C757D" font-size="10">宽松布局</text>
+  
+  <rect x="520" y="540" width="120" height="40" rx="8" fill="#F8D7DA"/>
+  <text x="580" y="558" text-anchor="middle" fill="#2C3E50" font-size="12" font-weight="bold">超大屏 ≥ 480px</text>
+  <text x="580" y="572" text-anchor="middle" fill="#6C757D" font-size="10">桌面布局</text>
+</svg>

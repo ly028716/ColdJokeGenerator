@@ -1,0 +1,54 @@
+<view class="joke-card {{cardStyle}}" bindtap="onJokeClick">
+  <!-- 笑话内容 -->
+  <view class="joke-content">
+    <text class="joke-text" user-select="{{true}}">{{joke.content}}</text>
+  </view>
+  
+  <!-- 笑话信息 -->
+  <view class="joke-info" wx:if="{{joke.category || joke.created_at}}">
+    <view class="joke-meta">
+      <view class="category-tag" wx:if="{{joke.category}}" style="background-color: {{getCategoryInfo(joke.category).color}}20; color: {{getCategoryInfo(joke.category).color}}">
+        <text class="category-icon">{{getCategoryInfo(joke.category).icon}}</text>
+        <text class="category-name">{{getCategoryInfo(joke.category).name}}</text>
+      </view>
+      <text class="joke-time" wx:if="{{joke.created_at}}">{{formatTime(joke.created_at)}}</text>
+    </view>
+    
+    <!-- 统计信息 -->
+    <view class="joke-stats" wx:if="{{joke.view_count || joke.like_count || joke.share_count}}">
+      <view class="stat-item" wx:if="{{joke.view_count}}">
+        <text class="stat-icon">👀</text>
+        <text class="stat-text">{{joke.view_count}}</text>
+      </view>
+      <view class="stat-item" wx:if="{{joke.like_count}}">
+        <text class="stat-icon">👍</text>
+        <text class="stat-text">{{joke.like_count}}</text>
+      </view>
+      <view class="stat-item" wx:if="{{joke.share_count}}">
+        <text class="stat-icon">📤</text>
+        <text class="stat-text">{{joke.share_count}}</text>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 操作按钮 -->
+  <view class="joke-actions" wx:if="{{showActions}}">
+    <!-- 复制按钮 -->
+    <view class="action-btn copy-btn" wx:if="{{showCopy}}" bindtap="onCopy" catch:tap="true">
+      <text class="action-icon">📋</text>
+      <text class="action-text">复制</text>
+    </view>
+    
+    <!-- 收藏按钮 -->
+    <view class="action-btn favorite-btn {{isFavorited ? 'favorited' : ''}}" wx:if="{{showFavorite}}" bindtap="onFavorite" catch:tap="true">
+      <text class="action-icon">{{isFavorited ? '❤️' : '🤍'}}</text>
+      <text class="action-text">{{isFavorited ? '已收藏' : '收藏'}}</text>
+    </view>
+    
+    <!-- 分享按钮 -->
+    <view class="action-btn share-btn {{isSharing ? 'sharing' : ''}}" wx:if="{{showShare}}" bindtap="onShare" catch:tap="true">
+      <text class="action-icon">{{isSharing ? '⏳' : '📤'}}</text>
+      <text class="action-text">{{isSharing ? '分享中' : '分享'}}</text>
+    </view>
+  </view>
+</view>
